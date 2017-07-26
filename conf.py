@@ -17,15 +17,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Roberto Alsina"  # (translatable)
-BLOG_TITLE = "BlogSomeSauce"  # (translatable)
+BLOG_AUTHOR = "Lic. Deybi Morales Leon"  # (translatable)
+BLOG_TITLE = "Datos y Economia"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://blogsomesauce.netlify.com"
+SITE_URL = "https://datosyeconomia.netlify.com"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "info@getnikola.com"
+BLOG_EMAIL = "morales.economia@gmail.com"
 BLOG_DESCRIPTION = "This is a demo site for Nikola via Netlify & GitHub!"  # (translatable)
 
 # Nikola is multilingual!
@@ -839,7 +839,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Creado con         <a href="https://getnikola.com" rel="nofollow">Nikola</a> con los poderes de <a href="https://python.com" rel="nofollow">Python</a>      {license}'
+CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Creado en   <a href="https://getnikola.com" rel="nofollow">Nikola</a> con los poderes de <a href="https://python.com" rel="nofollow">Python</a>, alojado en  <a href="https://app.netlify.com" rel="nofollow">Netlify</a> y posteando con <a href="https://daringfireball.net/projects/markdown/" rel="nofollow">Markdown</a>     {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
