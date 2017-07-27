@@ -84,7 +84,7 @@ BLOG_DESCRIPTION = "Esta es la página web estática!"  # (translatable)
 # in the default language will be shown instead.
 
 # What is the default language?
-DEFAULT_LANG = "es"
+DEFAULT_LANG = "en"
 
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
@@ -172,21 +172,21 @@ THEME_COLOR = '#5670d4'
 # of a blog, while PAGES are just independent HTML pages.
 #
 
-POSTS = (
+POSTS = ()
 #    ("posts/*.md", "posts", "post.tmpl"),
 #    ("posts/*.rst", "posts", "post.tmpl"),
 #    ("posts/*.txt", "posts", "post.tmpl"),
 #    ("posts/*.html", "posts", "post.tmpl"),
-)  # COMENTARIO DE DEYBI, LO HE CAMBIADO PARA CONVERTIR EN WEB ESTÁTICA
+#)  # COMENTARIO DE DEYBI, LO HE CAMBIADO PARA CONVERTIR EN WEB ESTÁTICA
 PAGES = (
 #    ("stories/*.md", "stories", "story.tmpl"),
 #    ("stories/*.rst", "stories", "story.tmpl"),
 #    ("stories/*.txt", "stories", "story.tmpl"),
 #    ("stories/*.html", "stories", "story.tmpl"),
-    ("pages/*.md", "stories", "story.tmpl"),
-    ("pages/*.rst", "stories", "story.tmpl"),
-    ("pages/*.txt", "stories", "story.tmpl"),
-    ("pages/*.html", "stories", "story.tmpl")
+    ("pages/*.md", "", "story.tmpl"),
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
 
 )
 
