@@ -180,10 +180,10 @@ POSTS = (
 )
 #quite stories de ntre comillas
 PAGES = (
-    ("pages/*.md", "", "story.tmpl"),
-    ("pages/*.rst", "", "story.tmpl"),
-    ("pages/*.txt", "", "story.tmpl"),
-    ("pages/*.html", "", "story.tmpl"),
+    ("stories/*.md", "", "story.tmpl"),
+    ("stories/*.rst", "", "story.tmpl"),
+    ("stories/*.txt", "", "story.tmpl"),
+    ("stories/*.html", "", "story.tmpl"),
 )
 
 
