@@ -173,11 +173,11 @@ THEME_COLOR = '#5670d4'
 #
 
 POSTS = ()
-#    ("posts/*.md", "posts", "post.tmpl"),
-#    ("posts/*.rst", "posts", "post.tmpl"),
-#    ("posts/*.txt", "posts", "post.tmpl"),
-#    ("posts/*.html", "posts", "post.tmpl"),
-#)  # COMENTARIO DE DEYBI, LO HE CAMBIADO PARA CONVERTIR EN WEB ESTÁTICA
+    ("posts/*.md", "posts", "post.tmpl"),
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.html", "posts", "post.tmpl"),
+)  # COMENTARIO DE DEYBI, LO HE CAMBIADO PARA CONVERTIR EN WEB ESTÁTICA
 PAGES = (
 #    ("stories/*.md", "stories", "story.tmpl"),
 #    ("stories/*.rst", "stories", "story.tmpl"),
@@ -187,7 +187,6 @@ PAGES = (
     ("pages/*.rst", "", "story.tmpl"),
     ("pages/*.txt", "", "story.tmpl"),
     ("pages/*.html", "", "story.tmpl"),
-
 )
 
 
