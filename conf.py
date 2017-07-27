@@ -172,7 +172,7 @@ THEME_COLOR = '#5670d4'
 # of a blog, while PAGES are just independent HTML pages.
 #
 
-POSTS = ()
+POSTS = (
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
