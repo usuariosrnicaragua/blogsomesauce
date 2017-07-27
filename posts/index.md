@@ -1,10 +1,11 @@
+<!--
 .. title: Welcome To The Fake Site
 .. slug: index
 .. date: 1970-01-01 00:00:00 UTC
 .. tags:
 .. link:
 .. description: Fake Site version 1, welcome page!
-
+-->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
 Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
