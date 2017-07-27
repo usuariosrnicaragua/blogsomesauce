@@ -179,14 +179,14 @@ POSTS = ()
     ("posts/*.html", "posts", "post.tmpl"),
 )  # COMENTARIO DE DEYBI, LO HE CAMBIADO PARA CONVERTIR EN WEB ESTÁTICA
 PAGES = (
-#    ("stories/*.md", "stories", "story.tmpl"),
-#    ("stories/*.rst", "stories", "story.tmpl"),
-#    ("stories/*.txt", "stories", "story.tmpl"),
-#    ("stories/*.html", "stories", "story.tmpl"),
-    ("pages/*.md", "", "story.tmpl"),
-    ("pages/*.rst", "", "story.tmpl"),
-    ("pages/*.txt", "", "story.tmpl"),
-    ("pages/*.html", "", "story.tmpl"),
+    ("stories/*.md", "stories", "story.tmpl"),
+    ("stories/*.rst", "stories", "story.tmpl"),
+    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.html", "stories", "story.tmpl"),
+#    ("pages/*.md", "", "story.tmpl"),
+#    ("pages/*.rst", "", "story.tmpl"),
+#    ("pages/*.txt", "", "story.tmpl"),
+#    ("pages/*.html", "", "story.tmpl"),
 )
 
 
